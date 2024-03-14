@@ -1,11 +1,16 @@
 .navBar{
+    margin: 2%;
     color: black;
-    background-color: rgb(238, 220, 220);
     display: flex;
     justify-content: end;
     gap: 20px;
     align-items: center;
     align-content: space-between;
+}
+.input{
+    text-decoration: none;
+    background-color: #2F363D;
+    border: none;
 }
 .user{
     font-size: 20px;
@@ -16,14 +21,22 @@
     border: 1px solid black;
 }
 .search{
-    background-color: white;
+    background-color: #1C2126;
     width: full;
     display: flex;
     padding: 7px;
-    border: 1px solid grey;
     border-radius: 5px;
+    color: #B9B9B9;
 }
-.icon{
+.icons{
+    margin-left: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.icons button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2F363D;
+    color: #13B497;
 }

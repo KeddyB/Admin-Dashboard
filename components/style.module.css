@@ -7,14 +7,7 @@
     align-items: center;
     align-content: space-between;
 }
-.input{
-    text-decoration: none;
-    background-color: #1C2126;
-    border: none;
-}
-.input textarea{
-    background-color: #1C2126;
-}
+
 .user{
     font-size: 20px;
     padding: 5px;
@@ -24,12 +17,25 @@
     border: 1px solid black;
 }
 .search{
+    padding: 7px 10px 7px 20px;
     background-color: #1C2126;
-    width: full;
+    width: 20rem;
     display: flex;
-    padding: 7px;
-    border-radius: 5px;
+    justify-content: flex-end;
+    border: 1px solid #647280;
+    border-radius: 10px;
     color: #B9B9B9;
+    gap: 3.5rem;
+}
+.input{
+    text-decoration: none;
+    background-color: #1C2126;
+    outline: none;
+    font-size: 13px;
+}
+.input textarea{
+    background-color: #1C2126;
+    border: 0px;
 }
 .icons{
     margin-left: 2rem;
@@ -42,4 +48,10 @@
     border-radius: 10px;
     background-color: #2F363D;
     color: #13B497;
+}
+.gear{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #13B497;
 }

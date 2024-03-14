@@ -9,8 +9,11 @@
 }
 .input{
     text-decoration: none;
-    background-color: #2F363D;
+    background-color: #1C2126;
     border: none;
+}
+.input textarea{
+    background-color: #1C2126;
 }
 .user{
     font-size: 20px;

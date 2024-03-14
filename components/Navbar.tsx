@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className={styles.navBar}>
         <RxHamburgerMenu fontSize={25}/>
         <p className="font">Admin Dashboard</p>
-        <div className={styles.search}><input type="text" placeholder='Search Here...' className='input' />&nbsp;<CiSearch fontSize={21} /></div>
+        <div className={styles.search}><input type="text" placeholder='Search Here...' className={styles.input} />&nbsp;<CiSearch fontSize={21} /></div>
         <div><FaGear fontSize={21}/></div>
         <div className={styles.icons}>
           <button>

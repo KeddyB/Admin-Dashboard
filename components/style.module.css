@@ -1,6 +1,8 @@
 .navBar{
-    margin: 2%;
-    color: black;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 2%;
+    color: white;
     display: flex;
     justify-content: end;
     gap: 20px;
@@ -9,6 +11,7 @@
 }
 
 .user{
+    padding-right: .6rem;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -21,7 +24,6 @@
     font-size: 13px;
 }
 .link{
-    background-color: #647280;
     border-radius: 10px;
     height: 100%;
     padding: 9px;
@@ -31,7 +33,6 @@
     border: 1px solid black;
 }
 .search{
-    padding: 7px 10px 7px 20px;
     background-color: #1C2126;
     width: 20rem;
     display: flex;
@@ -39,18 +40,17 @@
     border: 1px solid #647280;
     border-radius: 10px;
     color: #B9B9B9;
-    gap: 3.5rem;
+    gap: 5rem;
+    padding: 8px;
 }
 .input{
-    text-decoration: none;
     background-color: #1C2126;
     outline: none;
-    font-size: 13px;
+    font-size: 12px;
+    width: 100%;
+    height: auto;
 }
-.input textarea{
-    background-color: #1C2126;
-    border: 0px;
-}
+
 .icons{
     margin-left: 2rem;
     display: grid;

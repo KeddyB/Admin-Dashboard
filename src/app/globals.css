@@ -15,7 +15,10 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+*{
+  padding: 0;
+  margin: 0;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: #24292E;

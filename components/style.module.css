@@ -12,7 +12,16 @@
     font-size: 20px;
     padding: 5px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #647280;
 }
+.user .link{
+    background-color: #647280;
+    color: white;
+}
+
 .btn{
     border: 1px solid black;
 }

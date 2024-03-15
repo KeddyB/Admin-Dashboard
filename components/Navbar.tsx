@@ -9,6 +9,7 @@ import { LuMessagesSquare } from "react-icons/lu";
 import { IoIosNotifications } from "react-icons/io";
 
 import styles from './style.module.css'
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -28,7 +29,12 @@ const Navbar = () => {
             <IoGiftOutline fontSize={20} />
           </button>
         </div>
-        <div className={styles.user}><a href="/"><TbUserSquareRounded fontSize={25}/> David</a></div>
+        <div className={styles.user}>
+          <div className={styles.link}>
+            <Link  href={``}><TbUserSquareRounded /></Link>
+          </div>
+          David
+        </div>
     </div>
   )
 }

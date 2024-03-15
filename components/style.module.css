@@ -9,17 +9,22 @@
 }
 
 .user{
-    font-size: 20px;
-    padding: 5px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     text-align: center;
     border: 1px solid #647280;
-}
-.user .link{
-    background-color: #647280;
     color: white;
+}
+.userName{
+    padding: 10px;
+    font-size: 13px;
+}
+.link{
+    background-color: #647280;
+    border-radius: 10px;
+    height: 100%;
+    padding: 9px;
 }
 
 .btn{
@@ -51,6 +56,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
+    padding-right: 1.3rem;
+    border-right: 1px solid #647280;
 }
 .icons button{
     padding: 10px;

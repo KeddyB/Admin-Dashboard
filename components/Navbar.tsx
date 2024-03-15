@@ -7,6 +7,7 @@ import { GoGear } from "react-icons/go";
 import { IoGiftOutline } from "react-icons/io5";
 import { LuMessagesSquare } from "react-icons/lu";
 import { IoIosNotifications } from "react-icons/io";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 import styles from './style.module.css'
 import Link from 'next/link';
@@ -30,10 +31,9 @@ const Navbar = () => {
           </button>
         </div>
         <div className={styles.user}>
-          <div className={styles.link}>
-            <Link  href={``}><TbUserSquareRounded /></Link>
-          </div>
-          David
+          <Link className={styles.link} href={``}><TbUserSquareRounded fontSize={24} /></Link>
+          <p className={styles.userName}>David</p>
+          <IoMdArrowDropdown fontSize={20} />
         </div>
     </div>
   )

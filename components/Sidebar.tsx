@@ -1,9 +1,12 @@
 import React from 'react'
 
+import styles from './style.module.css'
+
 const Sidebar = () => {
   return (
-    <div>
-      this is the sidebar
+    <div className={styles.sideContainer}>
+      <p>logo</p>
+      <header>Main Menu</header>
     </div>
   )
 }

@@ -5,8 +5,10 @@ import styles from './style.module.css'
 const Sidebar = () => {
   return (
     <div className={styles.sideContainer}>
-      <p>logo</p>
-      <header>Main Menu</header>
+      <header>Logo placeholder</header>
+      <div className="menu">
+        <p>Main Menu</p>
+      </div>
     </div>
   )
 }

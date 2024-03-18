@@ -2,7 +2,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { mainMenu } from '../utils/data'
+import {mainMenu} from '../utils/data'
+import Menu  from './Menu'
 import styles from './style.module.css'
 
 const Sidebar = () => {
@@ -11,14 +12,12 @@ const Sidebar = () => {
       <header>Logo placeholder</header>
       <div className="menu">
         <p>Main Menu</p>
-        {mainMenu.slice(0, mainMenu.length - 1).map((menu) =>(
-            <NavLink
-              to={`/menu/${menu?.name}`}
-              key={menu?.name}
-            >
-              {menu?.name}
-            </NavLink>
-          ))}
+        <ul>
+          {[1,2,3,4].map((number)=>{
+            <li key={number}>{number}</li>
+          })}
+        </ul>
+        
       </div>
     </div>
   )

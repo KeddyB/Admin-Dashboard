@@ -12,12 +12,11 @@ const Sidebar = () => {
       <header>Logo placeholder</header>
       <div className="menu">
         <p>Main Menu</p>
-        <ul>
-          {[1,2,3,4].map((number)=>{
-            <li key={number}>{number}</li>
-          })}
-        </ul>
-        
+        <div className="menuList">
+          {mainMenu.map((menubar) => 
+            (<Menu key={menubar.id} menu={menubar} />)
+          )}
+        </div>
       </div>
     </div>
   )

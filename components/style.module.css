@@ -84,6 +84,14 @@
     background-color: #2F363D;
     width: 17rem;
 }
+.hide{
+    display: none;
+}
+.mainMenu{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 @media (max-width: 1300px) {
     /* navbar */

@@ -16,9 +16,9 @@ const Sidebar = () => {
           <Image src={image} alt=""  className={styles.image} />
         </div>
       </header>
-      <div className="menu">
+      <div className={styles.menu}>
         <p>Main Menu</p>
-        <div className="menuList">
+        <div className={styles.menuList}>
           {mainMenu.map((menubar) => 
             (<Menu key={menubar.id} menu={menubar} />)
           )}

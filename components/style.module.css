@@ -90,7 +90,8 @@
     display: none;
 }
 .mainMenu{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 1rem;
     margin-bottom: 1rem;
 }

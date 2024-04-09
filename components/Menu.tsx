@@ -13,6 +13,9 @@ const Menu = ({menu: {id, menu, name, subName, icon}} : any) => {
             <div>{icon}</div>
             <p>{name}</p>
             <IoMdArrowDropright fontSize={20} />
+            {
+              subName
+            }
             <div className={styles.hide}><IoMdArrowDropdown /></div>
         </div>
       </Link>
